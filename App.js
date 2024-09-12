@@ -9,12 +9,15 @@ function App () {
   return (
     <ScrollView style={{margin: 20}}>
       <StatusBar backgroundColor = "#0077B5"/>
+
       <Image style={style.profileImage}
         source ={require('./assets/andrew.jpg')}
       />
+
     <Text style={style.myName}>
     Andrew Ryan
     </Text>
+
     <Text style={style.jobFunction}>
       Desenvolvedor de Software
     </Text>
@@ -48,19 +51,16 @@ function App () {
       <Text style={style.companyName}>Empresa XYZ</Text>
       <Text style={style.jobDate}>Jan 2017 - Jan 2019</Text>
       <Text style={style.jobResume}>. Desenvolvi aplicativos desktop usando C# e framework ASP.NET.</Text>
-
     </View>
 
     <View>
-
     <Text style={style.title}>Educação</Text>
     <Text style={style.jobTitle}>Bacharel em Ciência da Computação</Text>
     <Text style={style.jobResume}>Universidade Federal</Text>
     <Text style={style.jobDate}>Jan 2012 - Dez -2016</Text>
-
     </View>
 
-    <View>      
+    <View>
     <Text style={style.title}>Habilidades</Text>
     </View>
 
@@ -70,7 +70,6 @@ function App () {
     <TouchableOpacity style={style.tag}><Text style={style.tagText}>Redux</Text></TouchableOpacity>
     <TouchableOpacity style={style.tag}><Text style={style.tagText}>Git</Text></TouchableOpacity>
     <TouchableOpacity style={style.tag}><Text style={style.tagText}>Node.js</Text></TouchableOpacity>
-
     </View>
 
     </ScrollView>
